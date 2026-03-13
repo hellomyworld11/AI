@@ -1,4 +1,7 @@
 # AI
+
+# 参考
+
 环境工具:
 
 ```
@@ -15,13 +18,7 @@ anaconda 安装 https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 https://zhuanlan.zhihu.com/p/1940862894200829672
 ```
 
-
-
-
-
-
-
-AI 使用
+# AI 使用
 
 ```
 1. 当AI回答之后，继续点再生按钮， 可以继续生成多种新的回答。  适合发散性的提问。
@@ -73,3 +70,8 @@ ai 怎么 去除ai味：
 提示词优化：
 
 ![image-20260312164514049](README.assets/image-20260312164514049.png)
+
+# 开发
+
+
+
