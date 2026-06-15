@@ -73,5 +73,35 @@ ai 怎么 去除ai味：
 
 # 开发
 
+## python数据分析
 
+```
+数据收集 -> 清洗  ->可视化
+```
+
+### numpy
+
+```python
+import numpy as np
+arr = np.array([1, 2, 3])
+
+正态分布 : np.random.randn()  两边小，中间大
+    
+数据类型dtype:
+    bool int unit float complex
+索引与切片
+	arr[:] 获取全部的数据
+
+可以直接进行运算
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+
+矩阵乘 @符号
+
+广播机制
+```
 
