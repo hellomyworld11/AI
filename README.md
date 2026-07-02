@@ -103,5 +103,19 @@ print(a/b)
 矩阵乘 @符号
 
 广播机制
+
+常用函数
+	sqrt  exp  power  round ceil floor ...
+    
+  方差:  弥补平均数的不足。
+    	np.var()
+        
+      
+```
+
+Pandas
+
+```
+
 ```
 
