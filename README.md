@@ -71,6 +71,26 @@ ai 怎么 去除ai味：
 
 ![image-20260312164514049](README.assets/image-20260312164514049.png)
 
+# agent使用
+
+## 1. deepseek harness
+
+```powershell
+1.安装nodejs  LTS 版本  node --version、npm --version 验证
+2. npm 下载安装 dsh包 
+	npm install -g@deepseek-ai/dsh
+3. 运行
+	dsh web 启动服务器，   浏览器访问地址: http://127.0.0.1:3080
+	
+DSH 的所有数据都保存在$DSH_HOME 目录（Windows 为 C:\Users\你的用户名\.dsh，macOS/Linux 为~/.dsh）​，备份会话时只需备份sessions/目录。
+```
+
+
+
+
+
+
+
 # 开发
 
 ## python数据分析
