@@ -89,6 +89,31 @@ DSH 的所有数据都保存在$DSH_HOME 目录（Windows 为 C:\Users\你的用
 
 
 
+2. claude code
+
+```
+https://www.runoob.com/claude-code/claude-code-tutorial.html
+
+安装
+	Claude Code CLI
+	
+	irm https://claude.ai/install.ps1 | iex
+	
+	cc switch 管理api配置
+	https://github.com/farion1231/cc-swi
+	
+	使用方法：
+		预设供应商选择「自定义配置」，供应商名称任意填写
+		请求地址：固定为 https://api-inference.modelscope.cn（无需追加 /v1）
+		API Key：使用魔搭生成的 Access Token，去掉 ms- 前缀后填入
+		实际请求模型：填写模型库中的 Model ID
+ .json配置文件 添加 "hasCompletedOnboarding": true
+```
+
+
+
+
+
 
 
 # 开发
