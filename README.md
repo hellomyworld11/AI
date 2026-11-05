@@ -154,13 +154,56 @@ print(a/b)
     
   方差:  弥补平均数的不足。
     	np.var()
-        
-      
+     
+print(s.mean())  # 平均值
+print(s.std())   # 标准差
 ```
 
-Pandas
+### Pandas
 
 ```
+两种数据结构:
+	series  一维
+	DataFrame  二维  多列 不同列数据类型可以不同。
+	
+	索引 值
+	index values
+	
+	pct_change() 计算每日收益率
+	
+	iloc 隐式索引，类似于数组下标
+	loc  显示索引，按标签index
+	
+```
 
+![image-20260713231529698](README.assets/image-20260713231529698.png)
+
+```
+数据导入
+pd.read_csv()
+缺失值处理
+isna()
+dropna() 删除整条记录
+fillna()
+数据转换
+astype
+数据变形
+pd.melt 宽表传长表
+pd.pivot 长表传宽表
+数据分箱  给数据划分区间
+cut
+分组聚合
+group  agg
+```
+
+### 可视化
+
+```
+matplotlib
+
+plot 折线图 趋势变化
+bar 条形图	类别对比
+pie 扇形图	整体比例
+scatter 散点图  变量相关性
 ```
 
