@@ -108,6 +108,16 @@ https://www.runoob.com/claude-code/claude-code-tutorial.html
 		API Key：使用魔搭生成的 Access Token，去掉 ms- 前缀后填入
 		实际请求模型：填写模型库中的 Model ID
  .json配置文件 添加 "hasCompletedOnboarding": true
+ 
+ CLAUDE.md 在每次会话开始时都会自动读取   /init 生成
+ 
+ ask plan edit 三种模式
+ 
+ claude -c 继续上次的对话
+ 
+ /context 命令可以随时查看当前上下文的详细用量分析：  /compact 压缩上下文  /clear 清除上下文
+ 
+ SKILL.md 封装成一个可复用、可自动触发的能力模块。
 ```
 
 
